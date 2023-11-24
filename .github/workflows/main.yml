@@ -1,4 +1,4 @@
-name: Test Cron Job
+name: NVIDIA GPU List
 
 on:
   push:
