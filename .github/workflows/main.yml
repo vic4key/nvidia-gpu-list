@@ -1,0 +1,58 @@
+name: Test Cron Job
+
+on:
+  push:
+    branches: [ master, main ]
+  schedule:
+    - cron: '0 7 * * *'
+
+jobs:
+  auto_update_nvidia_gpu_list:
+    runs-on: ubuntu-latest
+    steps:
+      # https://timezonedb.com/time-zones
+      - name: Set Time Zone
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: "Asia/Ho_Chi_Minh"
+          timezoneMacos: "Asia/Ho_Chi_Minh"
+          timezoneWindows: "Asia/Ho_Chi_Minh"
+
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node JS Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      - name: Install Node JS Project Dependencies
+        run: npm i
+
+      - name: Launch
+        run: |
+          export _DATE_TIME=$(date -u +"%Y-%m-%dT%H:%M:%S.000Z")
+          echo "Date Time is $_DATE_TIME (UTC)"
+          node index.js
+
+      - name: Verify Changed Files
+        uses: tj-actions/verify-changed-files@v16
+        id: verify-changed-files
+        with:
+          files: |
+            .
+
+      - name: Commit Changed Files
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        run: |
+          echo "These Changed Files: ${{ steps.verify-changed-files.outputs.changed_files }}"
+          git config user.name "Vic P."
+          git config user.email "vic4key@gmail.com"
+          git config advice.addIgnoredFile false
+          git add .
+          git commit -m "Initial"
+          git push
+
+    permissions: write-all

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NVIDIA GPU List</title>
+  <script type="text/javascript" src="./json2table.js"></script><!-- Copyright @ http://json2table.azki.org/ -->
+  <script>
+    function conv_date_time_utc_to_local(utc_date_time) {
+      let date = new Date(utc_date_time);
+      let local_date_time = new Intl.DateTimeFormat('en-US', {
+          hour12: false,
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit',
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit',
+      }).format(date);
+      return local_date_time;
+    }
+
+    function create_title_text(title, data) {
+      let json = JSON.parse(data);
+      let utc_date_time = json["date_time"];
+      if (utc_date_time != undefined)
+      {
+        let local_date_time = conv_date_time_utc_to_local(utc_date_time);
+        title += ` (Updated at ${local_date_time})`;
+      }
+      return title;
+    }
+  </script>
+</head>
+<body>
+  <center><h1>NVIDIA GPU List (Automated Daily Updates)</h1></center>
+
+  <center><h2><div id="title_1"></div></h2></center>
+  <center><div id="table_1"></div></center>
+  <script>
+    fetch("./data/nvidia.com_cuda-gpus.json")
+    .then(response => response.text())
+    .then(text => {
+      let json_content;
+      eval("json_content = " + text);
+      let table = document.getElementById("table_1");
+      jsonDisplay(table, json_content);
+      let title = create_title_text("CUDA GPUs", text);
+      document.getElementById("title_1").textContent = title;
+    })
+  </script>
+
+  <center><h2><div id="title_2"></div></h2></center>
+  <center><div id="table_2"></div></center>
+  <script>
+    fetch("./data/nvidia.com_cuda-legacy-gpus.json")
+    .then(response => response.text())
+    .then(text => {
+      let json_content;
+      eval("json_content = " + text);
+      let table = document.getElementById("table_2");
+      jsonDisplay(table, json_content);
+      let title = create_title_text("CUDA Legacy GPUs", text);
+      document.getElementById("title_2").textContent = title;
+    })
+  </script>
+
+  <br><hr><center><footer>Copyright (c) Vic P.</footer></center>
+</body>
+</html>
