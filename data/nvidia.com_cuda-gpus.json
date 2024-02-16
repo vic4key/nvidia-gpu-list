@@ -677,6 +677,11 @@
               "link": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4070ti/"
             },
             {
+              "name": "GeForce RTX 4060 Ti",
+              "compute_capability": "8.9",
+              "link": "https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4060-4060ti/"
+            },
+            {
               "name": "GeForce RTX 3090 Ti",
               "compute_capability": "8.6",
               "link": "https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3090-3090ti/"
