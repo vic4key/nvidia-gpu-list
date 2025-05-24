@@ -35,7 +35,7 @@ function get_url_content(url) {
   });
 }
 
-function extract_gpus_from_html_content(html_content, file_name)
+function extract_gpus_from_html_content(html_content, file_path)
 {
   let nvidia_gpu_list = [];
 
@@ -89,13 +89,17 @@ function extract_gpus_from_html_content(html_content, file_name)
     console.log("Error Parsing:", error);
   }
 
-  let json_content = {
-    // date_time: process.env._DATE_TIME,
-    list: nvidia_gpu_list,
-  };
-  let file_content = JSON.stringify(json_content, null, 2);
-  if (save_file_sync(file_name, file_content)) {
-    console.log(`The file '${file_name}' has been updated.`);
+  if (nvidia_gpu_list?.length) {
+    let json_content = {
+      // date_time: process.env._DATE_TIME,
+      list: nvidia_gpu_list,
+    };
+    let file_content = JSON.stringify(json_content, null, 2);
+    if (save_file_sync(file_path, file_content)) {
+      console.log(`The file '${file_path}' has been updated.`);
+    }
+  } else {
+    console.log(`The list is empty. Skip saving to file '${file_path}'.`)
   }
 }
 
