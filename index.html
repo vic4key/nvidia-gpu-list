@@ -52,7 +52,14 @@
 
     function json_cell_creation_callback(key, val) {
       let result = val;
-      if (key == "compute_capability") {
+      if (key == "name") {
+        let name = (val || "").replace(" ", "+");
+        result = `<a href="https://www.google.com/search?q=site%3Atechpowerup.com+${name}&newwindow=1" target="_blank" title="Click to see details">${val}</a>`;
+      }
+      else if (key == "link") {
+        result = `<a href="${val}" target="_blank" title="Click to see specs">${val}</a>`;
+      }
+      else if (key == "compute_capability") {
         result = `<a href="#" onclick="get_cuda_versions('${val}', versions => show_cuda_versions('${val}', versions))" title="Click to find all supported cuda versions">${val}</a>`;
       }
       return result;
