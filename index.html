@@ -37,6 +37,17 @@
 
   <center><h2><div id="title_1"></div></h2></center>
   <center><div id="table_1"></div></center>
+
+  <script>
+  function json_cell_creation_callback(key, val) {
+    let result = val;
+    if (key == "compute_capability") {
+      result = `<a target="_blank" href="cuda_versions.html?compute_capability=${val}">${val}</a>`;
+    }
+    return result;
+  }
+  </script>
+
   <script>
     fetch("./data/nvidia.com_cuda-gpus.json")
     .then(response => response.text())
@@ -44,7 +55,7 @@
       let json_content;
       eval("json_content = " + text);
       let table = document.getElementById("table_1");
-      jsonDisplay(table, json_content);
+      jsonDisplay(table, json_content, json_cell_creation_callback);
       let title = create_title_text("CUDA GPUs", text);
       document.getElementById("title_1").textContent = title;
     })
@@ -59,7 +70,7 @@
       let json_content;
       eval("json_content = " + text);
       let table = document.getElementById("table_2");
-      jsonDisplay(table, json_content);
+      jsonDisplay(table, json_content, json_cell_creation_callback);
       let title = create_title_text("CUDA Legacy GPUs", text);
       document.getElementById("title_2").textContent = title;
     })
