@@ -30,6 +30,33 @@
       }
       return title;
     }
+
+    function get_cuda_versions(compute_capability, callback) {
+      fetch(`https://vic.onl/find_cuda_versions.php?compute_capability=${compute_capability}`)
+        .then(response => response.json())
+        .then(data => {
+          callback(data.items);
+        })
+        .catch(error => {
+          console.error('Error fetching CUDA versions:', error);
+          callback([]);
+        });
+    }
+
+    function show_cuda_versions(compute_capability, versions) {
+      let s = `CUDA Versions for Compute Capability ${compute_capability}:\n\n` + versions.join(', ');
+      s = s.slice(0, s.length - 1);
+      s = s.replace(" and ", ", and ");
+      alert(s);
+    }
+
+    function json_cell_creation_callback(key, val) {
+      let result = val;
+      if (key == "compute_capability") {
+        result = `<a href="#" onclick="get_cuda_versions('${val}', versions => show_cuda_versions('${val}', versions))" title="Click to find all supported cuda versions">${val}</a>`;
+      }
+      return result;
+    }
   </script>
 </head>
 <body>
@@ -37,6 +64,7 @@
 
   <center><h2><div id="title_1"></div></h2></center>
   <center><div id="table_1"></div></center>
+
   <script>
     fetch("./data/nvidia.com_cuda-gpus.json")
     .then(response => response.text())
@@ -44,7 +72,7 @@
       let json_content;
       eval("json_content = " + text);
       let table = document.getElementById("table_1");
-      jsonDisplay(table, json_content);
+      jsonDisplay(table, json_content, json_cell_creation_callback);
       let title = create_title_text("CUDA GPUs", text);
       document.getElementById("title_1").textContent = title;
     })
@@ -59,7 +87,7 @@
       let json_content;
       eval("json_content = " + text);
       let table = document.getElementById("table_2");
-      jsonDisplay(table, json_content);
+      jsonDisplay(table, json_content, json_cell_creation_callback);
       let title = create_title_text("CUDA Legacy GPUs", text);
       document.getElementById("title_2").textContent = title;
     })

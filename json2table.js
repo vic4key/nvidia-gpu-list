@@ -6,7 +6,7 @@
  * @param {Object} data
  * @return {void}
  */
-function jsonDisplay(parent, data){
+function jsonDisplay(parent, data, json_cell_creation_callback = null){
 	
 	/**
 	 * table 을 만들어 반환함.
@@ -61,6 +61,9 @@ function jsonDisplay(parent, data){
                 }
             }
             else {
+                if (json_cell_creation_callback != null) {
+                    item = json_cell_creation_callback(name, item)
+                }
                 cell.innerHTML += item;
             }
         }
