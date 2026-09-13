@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NVIDIA GPU List</title>
-  <script type="text/javascript" src="./json2table.js"></script><!-- Copyright @ http://json2table.azki.org/ -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script>
     function conv_date_time_utc_to_local(utc_date_time) {
       let date = new Date(utc_date_time);
@@ -64,42 +64,100 @@
       }
       return result;
     }
+
+    /**
+     * Render the parsed list as ONE flat table: the category and compute capability
+     * cells span their whole group with rowspan, so the link between the columns is
+     * obvious at a glance.
+     */
+    function render_gpu_table(container, list) {
+      const table = document.createElement("table");
+      table.className = "table table-sm table-bordered table-hover align-middle mb-0";
+      table.innerHTML = `<thead class="table-light">
+        <tr>
+          <th scope="col">Category</th>
+          <th scope="col">Compute Capability</th>
+          <th scope="col">GPU</th>
+        </tr>
+      </thead>`;
+
+      const tbody = table.createTBody();
+      list.forEach((category) => {
+        const row_count = category.list.reduce((total, cc) => total + cc.list.length, 0);
+
+        category.list.forEach((cc, cc_index) => {
+          cc.list.forEach((item, item_index) => {
+            const row = tbody.insertRow();
+
+            if (cc_index === 0 && item_index === 0) {
+              const cell = row.insertCell();
+              cell.rowSpan = row_count;
+              cell.className = "fw-semibold text-nowrap align-top bg-body-tertiary";
+              cell.textContent = category.name;
+            }
+            if (item_index === 0) {
+              const cell = row.insertCell();
+              cell.rowSpan = cc.list.length;
+              cell.className = "fw-semibold text-nowrap align-top";
+              cell.innerHTML = json_cell_creation_callback("compute_capability", cc.name);
+            }
+
+            const cell = row.insertCell();
+            cell.innerHTML = json_cell_creation_callback("name", item.name);
+          });
+        });
+      });
+
+      container.appendChild(table);
+    }
   </script>
 </head>
-<body>
-  <center><h1>NVIDIA GPU List (Automated Daily Updates)</h1></center>
+<body class="bg-body-tertiary">
+  <header class="bg-dark text-white py-4 mb-4">
+    <div class="container">
+      <h1 class="h3 mb-0">NVIDIA GPU List</h1>
+      <p class="mb-0 text-white-50">Automated daily updates from the official website</p>
+    </div>
+  </header>
 
-  <center><h2><div id="title_1"></div></h2></center>
-  <center><div id="table_1"></div></center>
+  <main class="container pb-4">
+    <section class="card shadow-sm mb-4">
+      <div class="card-header bg-white"><h2 class="h5 mb-0" id="title_1"></h2></div>
+      <div class="card-body p-0"><div class="table-responsive" id="table_1"></div></div>
+    </section>
 
-  <script>
-    fetch("./data/nvidia.com_cuda-gpus.json")
-    .then(response => response.text())
-    .then(text => {
-      let json_content;
-      eval("json_content = " + text);
-      let table = document.getElementById("table_1");
-      jsonDisplay(table, json_content, json_cell_creation_callback);
-      let title = create_title_text("CUDA GPUs", text);
-      document.getElementById("title_1").textContent = title;
-    })
-  </script>
+    <script>
+      fetch("./data/nvidia.com_cuda-gpus.json")
+      .then(response => response.text())
+      .then(text => {
+        let json_content = JSON.parse(text);
+        let table = document.getElementById("table_1");
+        render_gpu_table(table, json_content.list);
+        let title = create_title_text("CUDA GPUs", text);
+        document.getElementById("title_1").textContent = title;
+      })
+    </script>
 
-  <center><h2><div id="title_2"></div></h2></center>
-  <center><div id="table_2"></div></center>
-  <script>
-    fetch("./data/nvidia.com_cuda-legacy-gpus.json")
-    .then(response => response.text())
-    .then(text => {
-      let json_content;
-      eval("json_content = " + text);
-      let table = document.getElementById("table_2");
-      jsonDisplay(table, json_content, json_cell_creation_callback);
-      let title = create_title_text("CUDA Legacy GPUs", text);
-      document.getElementById("title_2").textContent = title;
-    })
-  </script>
+    <section class="card shadow-sm mb-4">
+      <div class="card-header bg-white"><h2 class="h5 mb-0" id="title_2"></h2></div>
+      <div class="card-body p-0"><div class="table-responsive" id="table_2"></div></div>
+    </section>
 
-  <br><hr><center><footer>Copyright (c) Vic P.</footer></center>
+    <script>
+      fetch("./data/nvidia.com_cuda-legacy-gpus.json")
+      .then(response => response.text())
+      .then(text => {
+        let json_content = JSON.parse(text);
+        let table = document.getElementById("table_2");
+        render_gpu_table(table, json_content.list);
+        let title = create_title_text("CUDA Legacy GPUs", text);
+        document.getElementById("title_2").textContent = title;
+      })
+    </script>
+  </main>
+
+  <footer class="text-center text-body-secondary py-4 border-top">
+    Copyright (c) Vic P.
+  </footer>
 </body>
 </html>
