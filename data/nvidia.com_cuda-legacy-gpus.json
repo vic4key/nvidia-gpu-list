@@ -1,155 +1,1169 @@
 {
+  "date_time": "2026-09-13T19:11:26.000Z",
   "list": [
     {
-      "name": "CUDA-Enabled Tesla Products",
+      "name": "Data Center",
       "list": [
         {
-          "name": "Tesla Workstation Products",
+          "name": "7.0",
           "list": [
             {
-              "name": "Tesla C2075",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/personal-supercomputing.html"
-            },
-            {
-              "name": "Tesla C2050/C2070",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/product_tesla_C2050_C2070_us.html"
-            },
-            {
-              "name": "Tesla C1060",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/tesla_c1060.html"
-            },
-            {
-              "name": "Tesla C870",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/tesla_gpu_processor.html"
-            },
-            {
-              "name": "Tesla D870",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/tesla_deskside.html"
+              "name": "NVIDIA V100",
+              "compute_capability": "7.0"
             }
           ]
         },
         {
-          "name": "Tesla Data Center Products",
+          "name": "6.1",
           "list": [
             {
-              "name": "Tesla M2050/M2070/M2075/M2090",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/product_tesla_M2050_M2070_us.html"
+              "name": "Tesla P40",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Tesla P4",
+              "compute_capability": "6.1"
+            }
+          ]
+        },
+        {
+          "name": "6.0",
+          "list": [
+            {
+              "name": "Tesla P100",
+              "compute_capability": "6.0"
+            }
+          ]
+        },
+        {
+          "name": "5.2",
+          "list": [
+            {
+              "name": "Tesla M60",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "Tesla M40",
+              "compute_capability": "5.2"
+            }
+          ]
+        },
+        {
+          "name": "3.7",
+          "list": [
+            {
+              "name": "Tesla K80",
+              "compute_capability": "3.7"
+            }
+          ]
+        },
+        {
+          "name": "3.5",
+          "list": [
+            {
+              "name": "Tesla K40",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "Tesla K20",
+              "compute_capability": "3.5"
+            }
+          ]
+        },
+        {
+          "name": "3.0",
+          "list": [
+            {
+              "name": "Tesla K10",
+              "compute_capability": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "2.0",
+          "list": [
+            {
+              "name": "Tesla C2075",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Tesla C2050",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Tesla C2070",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Tesla M2050",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Tesla M2070",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Tesla M2075",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Tesla M2090",
+              "compute_capability": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "1.3",
+          "list": [
+            {
+              "name": "Tesla C1060",
+              "compute_capability": "1.3"
             },
             {
               "name": "Tesla S1070",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/tesla_s1070.html"
+              "compute_capability": "1.3"
             },
             {
               "name": "Tesla M1060",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_tesla_m1060_us.html"
+              "compute_capability": "1.3"
+            }
+          ]
+        },
+        {
+          "name": "1.0",
+          "list": [
+            {
+              "name": "Tesla C870",
+              "compute_capability": "1.0"
+            },
+            {
+              "name": "Tesla D870",
+              "compute_capability": "1.0"
             },
             {
               "name": "Tesla S870",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/tesla_gpu_server.html"
+              "compute_capability": "1.0"
             }
           ]
         }
       ]
     },
     {
-      "name": "CUDA-Enabled Quadro Products",
+      "name": "Workstation/Consumer",
       "list": [
         {
-          "name": "Quadro Desktop Products",
+          "name": "7.0",
           "list": [
             {
-              "name": "Quadro 6000",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/product-quadro-6000-us.html"
+              "name": "Quadro GV100",
+              "compute_capability": "7.0"
             },
             {
-              "name": "Quadro 5000",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/product-quadro-5000-us.html"
+              "name": "NVIDIA TITAN V",
+              "compute_capability": "7.0"
+            }
+          ]
+        },
+        {
+          "name": "6.1",
+          "list": [
+            {
+              "name": "Quadro P6000",
+              "compute_capability": "6.1"
             },
             {
-              "name": "Quadro 4000",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/product-quadro-4000-us.html"
+              "name": "Quadro P5200",
+              "compute_capability": "6.1"
             },
             {
-              "name": "Quadro 4000 for Mac",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/product-quadro-4000-mac-us.html"
+              "name": "Quadro P5000",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P4200",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P4000",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P3200",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P3000",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P2200",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P2000",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P1000",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P620",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P600",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P500",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "Quadro P400",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "P620",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "P520",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "NVIDIA TITAN Xp",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "NVIDIA TITAN X",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "GeForce GTX 1080 Ti",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "GeForce GTX 1080",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "GeForce GTX 1070 Ti",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "GeForce GTX 1070",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "GeForce GTX 1060",
+              "compute_capability": "6.1"
+            },
+            {
+              "name": "GeForce GTX 1050",
+              "compute_capability": "6.1"
+            }
+          ]
+        },
+        {
+          "name": "6.0",
+          "list": [
+            {
+              "name": "Quadro GP100",
+              "compute_capability": "6.0"
+            }
+          ]
+        },
+        {
+          "name": "5.2",
+          "list": [
+            {
+              "name": "Quadro M6000 24GB",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "Quadro M6000",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "Quadro M5000",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "Quadro M4000",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "Quadro M2000",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "Quadro M5500M",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "Quadro M2200",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "Quadro M620",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX TITAN X",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX 980 Ti",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX 980",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX 970",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX 960",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX 950",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX 980M",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX 970M",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce GTX 965M",
+              "compute_capability": "5.2"
+            },
+            {
+              "name": "GeForce 910M",
+              "compute_capability": "5.2"
+            }
+          ]
+        },
+        {
+          "name": "5.0",
+          "list": [
+            {
+              "name": "Quadro K2200",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro K1200",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro K620",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M1200",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M520",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M5000M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M4000M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M3000M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M2000M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M1000M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro K620M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M600M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "Quadro M500M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "NVIDIA NVS 810",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce GTX 750 Ti",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce GTX 750",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce GTX 960M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce GTX 950M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce 940M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce 930M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce GTX 850M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce 840M",
+              "compute_capability": "5.0"
+            },
+            {
+              "name": "GeForce 830M",
+              "compute_capability": "5.0"
+            }
+          ]
+        },
+        {
+          "name": "3.5",
+          "list": [
+            {
+              "name": "Quadro K6000",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "Quadro K5200",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "Quadro K610M",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "Quadro K510M",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GTX TITAN Z",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GTX TITAN Black",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GTX TITAN",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GTX 780 Ti",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GTX 780",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GT 730",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GT 720",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GT 705*",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce GT 640 (GDDR5)",
+              "compute_capability": "3.5"
+            },
+            {
+              "name": "GeForce 920M",
+              "compute_capability": "3.5"
+            }
+          ]
+        },
+        {
+          "name": "3.0",
+          "list": [
+            {
+              "name": "Quadro K5000",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K4200",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K4000",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K2000",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K2000D",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K600",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K420",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro 410",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K6000M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K5200M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K5100M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K500M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K4200M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K4100M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K3100M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K2200M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K2100M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "Quadro K1100M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "NVIDIA NVS 510",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 770",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 760",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 690",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 680",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 670",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 660 Ti",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 660",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 650 Ti BOOST",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 650 Ti",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 650",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 740",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 880M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 870M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 780M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 770M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 765M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 760M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 680MX",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 680M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 675MX",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 670MX",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GTX 660M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 755M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 750M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 650M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 745M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 645M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 740M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 730M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 640M",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 640M LE",
+              "compute_capability": "3.0"
+            },
+            {
+              "name": "GeForce GT 735M",
+              "compute_capability": "3.0"
+            }
+          ]
+        },
+        {
+          "name": "2.1",
+          "list": [
+            {
+              "name": "NVIDIA NVS 315",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "NVIDIA NVS 310",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "NVS 5400M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "NVS 5200M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "NVS 4200M",
+              "compute_capability": "2.1"
             },
             {
               "name": "Quadro 2000",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/object/product-quadro-2000-us.html"
+              "compute_capability": "2.1"
             },
             {
               "name": "Quadro 2000D",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/object/product-quadro-2000d-us.html"
+              "compute_capability": "2.1"
             },
             {
               "name": "Quadro 600",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/object/product-quadro-600-us.html"
+              "compute_capability": "2.1"
             },
             {
-              "name": "Quadro 400",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product-quadro-400-us.html"
+              "name": "Quadro 4000M",
+              "compute_capability": "2.1"
             },
+            {
+              "name": "Quadro 3000M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "Quadro 2000M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "Quadro 1000M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 560 Ti",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 550 Ti",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 460",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTS 450",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTS 450*",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 730 DDR3,128bit",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 640 (GDDR3)",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 630",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 620",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 610",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 520",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 440",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 440*",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 430",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 430*",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce 820M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce 800M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 675M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 670M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 635M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 630M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 625M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 720M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 620M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce 710M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce 705M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce 610M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 580M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 570M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 560M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 555M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 550M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 540M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 525M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 520MX",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 520M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 485M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 470M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GTX 460M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 445M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 435M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 420M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce GT 415M",
+              "compute_capability": "2.1"
+            },
+            {
+              "name": "GeForce 410M",
+              "compute_capability": "2.1"
+            }
+          ]
+        },
+        {
+          "name": "2.0",
+          "list": [
+            {
+              "name": "Quadro Plex 7000",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Quadro 6000",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Quadro 5000",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Quadro 4000",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Quadro 4000 for Mac",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Quadro 5010M",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "Quadro 5000M",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "GeForce GTX 590",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "GeForce GTX 580",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "GeForce GTX 570",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "GeForce GTX 480",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "GeForce GTX 470",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "GeForce GTX 465",
+              "compute_capability": "2.0"
+            },
+            {
+              "name": "GeForce GTX 480M",
+              "compute_capability": "2.0"
+            }
+          ]
+        },
+        {
+          "name": "1.3",
+          "list": [
             {
               "name": "Quadro FX 5800",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_5800_us.html"
-            },
-            {
-              "name": "Quadro FX 5600",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/quadro_fx_5600_4600.html"
+              "compute_capability": "1.3"
             },
             {
               "name": "Quadro FX 4800",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_4800_us.html"
+              "compute_capability": "1.3"
             },
             {
               "name": "Quadro FX 4800 for Mac",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_4800_for_mac_us.html"
-            },
-            {
-              "name": "Quadro FX 4700 X2",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/quadro_fx_4700_x2.html"
-            },
-            {
-              "name": "Quadro FX 4600",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/quadro_fx_5600_4600.html"
+              "compute_capability": "1.3"
             },
             {
               "name": "Quadro FX 3800",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_3800_us.html"
+              "compute_capability": "1.3"
+            },
+            {
+              "name": "Quadro CX",
+              "compute_capability": "1.3"
+            },
+            {
+              "name": "Quadro Plex 2200 D2",
+              "compute_capability": "1.3"
+            },
+            {
+              "name": "GeForce GTX 295",
+              "compute_capability": "1.3"
+            },
+            {
+              "name": "GeForce GTX 285",
+              "compute_capability": "1.3"
+            },
+            {
+              "name": "GeForce GTX 285 for Mac",
+              "compute_capability": "1.3"
+            },
+            {
+              "name": "GeForce GTX 280",
+              "compute_capability": "1.3"
+            },
+            {
+              "name": "GeForce GTX 275",
+              "compute_capability": "1.3"
+            },
+            {
+              "name": "GeForce GTX 260",
+              "compute_capability": "1.3"
+            }
+          ]
+        },
+        {
+          "name": "1.2",
+          "list": [
+            {
+              "name": "Quadro 400",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "Quadro FX 380 Low Profile",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "NVIDIA NVS 300",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "Quadro FX 1800M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "Quadro FX 880M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "Quadro FX 380M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "NVS 5100M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "NVS 3100M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "NVS 2100M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce GT 240",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce GT 220*",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce 210*",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce GTS 360M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce GTS 350M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce GT 335M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce GT 330M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce GT 325M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce GT 240M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce G210M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce 310M",
+              "compute_capability": "1.2"
+            },
+            {
+              "name": "GeForce 305M",
+              "compute_capability": "1.2"
+            }
+          ]
+        },
+        {
+          "name": "1.1",
+          "list": [
+            {
+              "name": "Quadro FX 4700 X2",
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 3700",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/quadrofx_family.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 1800",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_1800_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 1700",
@@ -157,8 +1171,7 @@
             },
             {
               "name": "Quadro FX 580",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_580_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 570",
@@ -166,18 +1179,11 @@
             },
             {
               "name": "Quadro FX 470",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_470_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 380",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_380_us.html"
-            },
-            {
-              "name": "Quadro FX 380 Low Profile",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_380lp_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 370",
@@ -185,723 +1191,405 @@
             },
             {
               "name": "Quadro FX 370 Low Profile",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_370_lowprofile_us.html"
-            },
-            {
-              "name": "Quadro CX",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_quadro_cx_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 450",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_nvs_450_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 420",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_nvs_420_us.html"
-            },
-            {
-              "name": "NVIDIA NVS 300",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product-quadro-nvs-300-us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 295",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_nvs_295_us.html"
-            },
-            {
-              "name": "Quadro Plex 7000",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/product-quadroplex-7000-us.html"
-            },
-            {
-              "name": "Quadro Plex 2200 D2",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_quadroplex_2200_d2_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro Plex 2100 D4",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadroplex_2100_d4_us.html"
-            },
-            {
-              "name": "Quadro Plex 2100 S4",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/quadroplex_s4.html"
-            }
-          ]
-        },
-        {
-          "name": "Quadro Mobile Products",
-          "list": [
-            {
-              "name": "Quadro 5010M",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/page/quadrofx_go.html"
-            },
-            {
-              "name": "Quadro 5000M",
-              "compute_capability": "2.0",
-              "link": "http://www.nvidia.com/object/product-quadro-5000m-us.html"
-            },
-            {
-              "name": "Quadro 4000M",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/page/quadrofx_go.html"
-            },
-            {
-              "name": "Quadro 3000M",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/page/quadrofx_go.html"
-            },
-            {
-              "name": "Quadro 2000M",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/page/quadrofx_go.html"
-            },
-            {
-              "name": "Quadro 1000M",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/page/quadrofx_go.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 3800M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_3800_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 3700M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_3700_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 3600M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/quadrofx_3600m.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 2800M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_2800_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 2700M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_2700_m_us.html"
-            },
-            {
-              "name": "Quadro FX 1800M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_1800_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 1700M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_1700_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 1600M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/quadrofx_go.html"
-            },
-            {
-              "name": "Quadro FX 880M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_880_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 770M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_770_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 570M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/quadrofx_go.html"
-            },
-            {
-              "name": "Quadro FX 380M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_380_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 370M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_fx_370_m_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro FX 360M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/quadrofx_go.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 320M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/quadro_nvs_notebook.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 160M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/quadro_nvs_notebook.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 150M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/quadro_nvs_notebook.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 140M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/quadro_nvs_notebook.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 135M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/quadro_nvs_notebook.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "Quadro NVS 130M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/quadro_nvs_notebook.html"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "CUDA-Enabled NVS Products",
-      "list": [
-        {
-          "name": "Desktop Products",
-          "list": [
-            {
-              "name": "Quadro NVS 450",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_nvs_450_us.html"
-            },
-            {
-              "name": "Quadro NVS 420",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_nvs_420_us.html"
-            },
-            {
-              "name": "NVIDIA NVS 315",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/object/nvs-product-overview.html"
-            },
-            {
-              "name": "NVIDIA NVS 310",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/object/nvs-310-graphics-card.html"
-            },
-            {
-              "name": "NVIDIA NVS 300",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product-quadro-nvs-300-us.html"
-            },
-            {
-              "name": "Quadro NVS 295",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_quadro_nvs_295_us.html"
-            }
-          ]
-        },
-        {
-          "name": "Mobile Products",
-          "list": [
-            {
-              "name": "NVS 5400M",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/object/notebook-nvs.html"
-            },
-            {
-              "name": "NVS 5200M",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/object/notebook-nvs.html"
-            },
-            {
-              "name": "NVS 4200M",
-              "compute_capability": "2.1",
-              "link": "http://www.nvidia.com/object/notebook-nvs.html"
-            },
-            {
-              "name": "NVS 5100M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/notebook-nvs.html"
-            },
-            {
-              "name": "NVS 3100M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/notebook-nvs.html"
-            },
-            {
-              "name": "NVS 2100M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/notebook-nvs.html"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "CUDA-Enabled GeForce Products",
-      "list": [
-        {
-          "name": "GeForce Desktop Products",
-          "list": [
-            {
-              "name": "GeForce GTX 295",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_geforce_gtx_295_us.html"
-            },
-            {
-              "name": "GeForce GTX 285",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_geforce_gtx_285_us.html"
-            },
-            {
-              "name": "GeForce GTX 285 for Mac",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_geforce_gtx_285_for_mac_us.html"
-            },
-            {
-              "name": "GeForce GTX 280",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/geforce_gtx_280.html"
-            },
-            {
-              "name": "GeForce GTX 275",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/product_geforce_gtx_275_us.html"
-            },
-            {
-              "name": "GeForce GTX 260",
-              "compute_capability": "1.3",
-              "link": "http://www.nvidia.com/object/geforce_gtx_260.html"
-            },
-            {
-              "name": "GeForce GT 420*",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/product-geforce-gt-420-oem-us.html"
-            },
-            {
-              "name": "GeForce GT 240",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_240_us.html"
-            },
-            {
-              "name": "GeForce GT 220*",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_220_us.html"
-            },
-            {
-              "name": "GeForce 210*",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_210_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce GTS 250",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gts_250_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce GTS 150",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gts_150_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce GT 130*",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_130_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce GT 120*",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_120_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce G100*",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_g_100_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 9800 GX2",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9800gx2.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 9800 GTX+",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9800gtx_plus.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 9800 GTX",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9800gtx.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 9600 GSO",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9600gso.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 9500 GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9500gt.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8800 GTS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/geforce8.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8800 GT",
-              "compute_capability": "1.1",
-              "link": "http://www.geforce.com/hardware/desktop-gpus/geforce-8800-gt"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8800 GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/geforce8.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8600 GTS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/geforce8.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8600 GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/geforce8.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8500 GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/geforce8.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8400 GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/page/geforce8.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 9400 mGPU",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_9400_mgpu_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 9300 mGPU",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_9300_mgpu_us.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8300 mGPU",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8300mgpu.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8200 mGPU",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8200mgpu.html"
+              "compute_capability": "1.1"
             },
             {
               "name": "GeForce 8100 mGPU",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8100mgpu.html"
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce 8800 Ultra",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/page/geforce8.html"
+              "name": "GeForce GTX 285M",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce 8800 GTX",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/page/geforce8.html"
+              "name": "GeForce GTX 280M",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce GT 340*",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_340_us.html"
+              "name": "GeForce GTX 260M",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce GT 330*",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_330_us.html"
+              "name": "GeForce 9800M GTX",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce GT 320*",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_320_us.html"
+              "name": "GeForce 8800M GTX",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce 315*",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/product_geforce_315_us.html"
+              "name": "GeForce GTS 260M",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce 310*",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/product_geforce_310_us.html"
+              "name": "GeForce GTS 250M",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce 9800 GT",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/geforce_9800gt.html"
+              "name": "GeForce 9800M GT",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce 9600 GT",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/geforce_9600gt.html"
+              "name": "GeForce 9600M GT",
+              "compute_capability": "1.1"
             },
             {
-              "name": "GeForce 9400GT",
-              "compute_capability": "1.0",
-              "link": "http://www.nvidia.com/object/product_geforce_9400gt_us.html"
+              "name": "GeForce 8800M GTS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9800M GTS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce GT 230M",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9700M GT",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9650M GS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9600M GS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9500M GS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 8700M GT",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 8600M GT",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 8600M GS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9500M G",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9300M G",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 8400M GS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce G210M",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce G110M",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9300M GS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9200M GS",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 9100M G",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce 8400M GT",
+              "compute_capability": "1.1"
+            },
+            {
+              "name": "GeForce G105M",
+              "compute_capability": "1.1"
             }
           ]
         },
         {
-          "name": "GeForce Notebook Products",
+          "name": "1.0",
           "list": [
             {
-              "name": "GeForce GTS 360M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_gts_360m_us.html"
+              "name": "Quadro FX 5600",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce GTS 350M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_gts_350m_us.html"
+              "name": "Quadro FX 4600",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce GT 335M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_335m_us.html"
+              "name": "Quadro Plex 2100 S4",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce GT 330M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_330m_us.html"
+              "name": "GeForce GT 420*",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce GT 325M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_325m_us.html"
+              "name": "GeForce 8800 Ultra",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce GT 240M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_240m_us.html"
+              "name": "GeForce 8800 GTX",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce G210M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_g210m_us.html"
+              "name": "GeForce GT 340*",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce 710M",
-              "compute_capability": "2.1",
-              "link": "http://www.geforce.com/hardware/notebook-gpus/geforce-710m"
+              "name": "GeForce GT 330*",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce 410M",
-              "compute_capability": "2.1",
-              "link": "http://www.geforce.com/hardware/notebook-gpus/geforce-410m"
+              "name": "GeForce GT 320*",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce 310M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_310m_us.html"
+              "name": "GeForce 315*",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce 305M",
-              "compute_capability": "1.2",
-              "link": "http://www.nvidia.com/object/product_geforce_305m_us.html"
+              "name": "GeForce 310*",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce GTX 285M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gtx_285m_us.html"
+              "name": "GeForce 9800 GT",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce GTX 280M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gtx_280m_us.html"
+              "name": "GeForce 9600 GT",
+              "compute_capability": "1.0"
             },
             {
-              "name": "GeForce GTX 260M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gtx_260m_us.html"
-            },
-            {
-              "name": "GeForce 9800M GTX",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9800m_gtx.html"
-            },
-            {
-              "name": "GeForce 8800M GTX",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8800m.html"
-            },
-            {
-              "name": "GeForce GTS 260M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gts_260m_us.html"
-            },
-            {
-              "name": "GeForce GTS 250M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gts_250m_us.html"
-            },
-            {
-              "name": "GeForce 9800M GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9800m_gt.html"
-            },
-            {
-              "name": "GeForce 9600M GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9600m_gt.html"
-            },
-            {
-              "name": "GeForce 8800M GTS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8800m.html"
-            },
-            {
-              "name": "GeForce 9800M GTS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9800m_gts.html"
-            },
-            {
-              "name": "GeForce GT 230M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_gt_230m_us.html"
-            },
-            {
-              "name": "GeForce 9700M GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9700m_gt.html"
-            },
-            {
-              "name": "GeForce 9650M GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9650m_gs.html"
-            },
-            {
-              "name": "GeForce 9700M GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9700m_gt.html"
-            },
-            {
-              "name": "GeForce 9650M GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9650m_gs.html"
-            },
-            {
-              "name": "GeForce 9600M GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9600m_gt.html"
-            },
-            {
-              "name": "GeForce 9600M GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9600m_gs.html"
-            },
-            {
-              "name": "GeForce 9500M GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9500m_gs.html"
-            },
-            {
-              "name": "GeForce 8700M GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8M.html"
-            },
-            {
-              "name": "GeForce 8600M GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8M.html"
-            },
-            {
-              "name": "GeForce 8600M GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8M.html"
-            },
-            {
-              "name": "GeForce 9500M G",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9500m_g.html"
-            },
-            {
-              "name": "GeForce 9300M G",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9300m_g.html"
-            },
-            {
-              "name": "GeForce 8400M GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8M.html"
-            },
-            {
-              "name": "GeForce G210M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_g210m_us.html"
-            },
-            {
-              "name": "GeForce G110M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_g110m_us.html"
-            },
-            {
-              "name": "GeForce 9300M GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9300m_gs.html"
-            },
-            {
-              "name": "GeForce 9200M GS",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9200m_gs.html"
-            },
-            {
-              "name": "GeForce 9100M G",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_9100m_g_mgpu.html"
-            },
-            {
-              "name": "GeForce 8400M GT",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/geforce_8M.html"
-            },
-            {
-              "name": "GeForce G105M",
-              "compute_capability": "1.1",
-              "link": "http://www.nvidia.com/object/product_geforce_g105m_us.html"
+              "name": "GeForce 9400GT",
+              "compute_capability": "1.0"
             }
           ]
         }
       ]
     },
     {
-      "name": "CUDA-Enabled TEGRA /Jetson Products",
+      "name": "Jetson",
       "list": [
         {
-          "name": "Tegra Mobile & Embedded Processors",
+          "name": "7.2",
+          "list": [
+            {
+              "name": "Jetson AGX Xavier",
+              "compute_capability": "7.2"
+            },
+            {
+              "name": "Jetson Xavier NX",
+              "compute_capability": "7.2"
+            }
+          ]
+        },
+        {
+          "name": "6.2",
+          "list": [
+            {
+              "name": "Jetson TX2",
+              "compute_capability": "6.2"
+            }
+          ]
+        },
+        {
+          "name": "5.3",
+          "list": [
+            {
+              "name": "Jetson Nano",
+              "compute_capability": "5.3"
+            }
+          ]
+        },
+        {
+          "name": "3.2",
           "list": [
             {
               "name": "Tegra K1",
-              "compute_capability": "3.2",
-              "link": "http://www.nvidia.com/object/tegra-k1-processor.html"
+              "compute_capability": "3.2"
             },
             {
               "name": "Jetson TK1",
-              "compute_capability": "3.2",
-              "link": "/jetson-tk1"
+              "compute_capability": "3.2"
             }
           ]
         }
